@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="centerWrapper">
+        <div class="half left">
+            <div class="color" id="color1" onmouseover="showText1('copy')" onmouseout="hideText()" onclick="showCopyDialog(0)">
+                <p class="alertText" id="alertText1"></p>
+            </div>
+            <div class="buttonWide Like" onclick="match()">
+                <p class="btnText">Match!</p>
+            </div>
+        </div>
+        <div class="half right">
+            <div class="color" id="color2" onmouseover="showText2('copy')" onmouseout="hideText()" onclick="showCopyDialog(1)">
+                <p class="alertText" id="alertText2"></p>
+            </div>
+            <div class="buttonWide dislike" onclick="notaMatch()">
+                <p class="btnText">Not a match!</p>
+            </div>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+</body>
+
+</html>

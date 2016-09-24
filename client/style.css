@@ -1,0 +1,63 @@
+      body {
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+          background-color: white;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+      }
+      
+      .centerWrapper {
+          height: 50vh;
+          width: 60vw;
+          background-color: #ecf0f1;
+          margin-left: 20vw;
+          margin-top: 12.5vw;
+          border-radius: 1vw;
+      }
+      
+      .half {
+          width: 50%;
+          height: 100%;
+          float: left;
+      }
+      
+      .color {
+          background-color: black;
+          height: 80%;
+          width: 90%;
+          margin-left: 5%;
+          margin-top: 3%;
+          border-radius: 1vw;
+          cursor: pointer;
+      }
+      
+      .buttonWide {
+          width: 90%;
+          height: 12%;
+          margin-left: 5%;
+          margin-top: 2%;
+          border-radius: 1vw;
+          text-align: center;
+          cursor: pointer;
+      }
+      
+      .like {
+          background-color: #2ecc71;
+      }
+      
+      .dislike {
+          background-color: #e74c3c;
+      }
+      
+      .btnText {
+          font-size: 1.5vw;
+          padding-top: .7vw;
+      }
+      
+      .alertText {
+          color: #ffffff;
+          font-size: 3vw;
+          text-align: center;
+          padding-top: 10vw;
+      }

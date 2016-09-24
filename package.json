@@ -1,0 +1,9 @@
+{
+    "name": "comor-scheme-generator"
+    , "version": "0.0.1"
+    , "description": "uses neural nets to grnerate match colors"
+    , "dependencies": {
+        "express": "^4.10.2"
+        , "socket.io": "^1.4.8"
+    }
+}
